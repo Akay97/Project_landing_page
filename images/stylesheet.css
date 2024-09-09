@@ -1,0 +1,98 @@
+body {
+    background-color: green;
+}
+nav {
+    display: inline-flex;
+    font-family: arial;
+    font-size:25px;
+    margin-top: 5px;
+    padding: 20px 20px;
+    
+    
+}
+
+nav .d1 {
+    color: #fff;
+    padding: 0px 50px;
+
+}
+
+nav .d1 a {
+    color: white;
+    text-decoration: none;
+ 
+}
+
+nav .d1 a:hover {
+    color: blue;
+}
+
+
+nav .d2 {
+    color: #fff;
+    padding: 0px 50px;
+
+}
+
+nav .d2 a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .d2 a:hover {
+    color: blue;
+}
+
+nav .d3 {
+    color: #fff;
+    padding: 0px 50px;
+}
+
+nav .d3 a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .d3 a:hover {
+    color: blue;
+}
+nav .d4 {
+    color: #fff;
+    padding: 0px 50px;
+}
+
+nav .d4 a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .d4 a:hover {
+    color: blue;
+}
+nav .d5 {
+    color: #fff;
+    padding: 0px 50px;
+}
+
+nav .d5 a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .d5 a:hover {
+    color: blue;
+}
+
+nav .d6 {
+    color: #fff;
+    padding: 0px 50px;
+}
+
+nav .d6 a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .d6 a:hover {
+    color: blue;
+}

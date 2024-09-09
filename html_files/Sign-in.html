@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../images/page logo.png" sizes="32x32" type="image/png">
+        <style>
+            /* this is my CSS cells */
+            .container {
+            text-align: center;
+            margin-top: 80px;
+            font-size: 50px;
+            font-style: italic;
+            font-family:'Courier New', Courier, monospace;
+            }
+            .white {
+                text-align: center;
+                font-size: 30px;
+            }
+            .logo {
+                text-align: center;
+                margin-top: 0.5px;
+            }
+            .username {
+                text-align: center;
+            }
+
+            .sign-in {
+                text-align: center;
+                font-weight:400;
+                color: white;
+            }
+            .sign-in a {
+                color: white;
+                text-decoration: none;
+            }
+            #login-form-data button {
+                background-color: #750202;
+                border: 1px solid #4d0404;
+                color: white;
+                font-size: 15px;
+                font-weight: 300;
+            }
+            #login-form-data button a {
+                color: white;
+                font-size: 15px;
+                font-weight: 300;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body style="background-color: darkred;">
+
+        <!-- Styling each text -->
+        <div class="container">
+            <b><PAN style="color: red;">A</PAN>
+                <PAN style="color: green;">K</PAN>
+                <PAN style="color: blue;">A</PAN>
+                <PAN style="color: white;">Y'</PAN>
+                <PAN style="color: aqua;">S</PAN>
+            </b>
+        </div>
+
+        <div class="white">
+            <pan style="color: white;">MUSIC</pan>
+        </div>
+
+        <!-- Inserting a logo -->
+        <div class="logo"><img src="../images/page logo.png" alt="media logo" width="150px"></div>
+
+        <br>
+
+        <!-- The login request form -->
+        <div class="username">
+            <form action="login.php" method="POST" id="login-form-data">
+                <b><label for="username" style="color: white;" >Username:</label></b>
+                <input name="username" id="username" type="text" placeholder="Enter username" required><br>
+                <br>
+                <b><label for="password" style="color: white;">Password:</label></b>
+                <input name="password" id="password" type="password" placeholder="Enter password" required><br>
+                <br>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <br>
+
+        <!-- Option to create an account -->
+        <div class="sign-in">
+            <p>Don't have an account?</p>
+            <a href="./Sign-up.html" target="_self"><p>Sign up here</p></a>
+        </div>
+        <!-- <script src="../JavaScript/javascript.js"></script> -->
+    </body>
+</html>
